@@ -98,13 +98,17 @@ h3 {
     height: 76vh;
   }
   h1 {
-    padding-top: 20vh;
+    padding-top: 10vh;
     font-size: 30px;
   }
 
+  h3{
+    margin-top : 70px;
+    margin-bottom: 10px
+  }
   .button{
     width:30%;
-    // height:200px;
+
   }
 }
 </style>
