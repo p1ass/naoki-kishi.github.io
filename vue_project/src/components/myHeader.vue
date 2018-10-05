@@ -24,13 +24,16 @@ export default {
 header{
   width : 100%;
   background-color : rgba(255,255,255,0.0);
-  top : 0px;
-  position: fixed;
-  border-bottom: 2px solid rgba(200,200,200,0.5);
+  /* border-bottom: 2x solid rgba(200,200,200,0.5); */
+  box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 10;
 }
 
 a{
-  padding : 10px 64px;
+  height: 6vh;
+  line-height: 6vh;
+  padding : 0 64px;
   transition: all 0.3s;
   cursor: pointer;
   font-size: 18px;

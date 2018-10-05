@@ -21,7 +21,6 @@ export default {
 </script>
 
 <style>
-@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css";
 
 #app {
   font-family: "Hiragino Kaku Gothic ProN";
@@ -34,8 +33,19 @@ export default {
 body{
   margin : 0px;
 }
-
-.page-fade-enter-active{
-  animation: fadeIn 1.5s;
+.page-fade-enter{
+  opacity: 0;
 }
+.page-fade-enter-active{
+  transition: opacity 0.5s;
+  transition-delay: 0.5s;
+}
+
+.page-fade-leave-top{
+  opacity: 0;
+}
+.page-fade-leave-active{
+  transition: opacity 0.4s;
+}
+
 </style>

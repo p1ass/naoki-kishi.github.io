@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Top from '@/pages/Top'
 import Skills from '@/pages/Skills'
 import Works from '@/pages/Works'
 import Contacts from '@/pages/Contacts'
@@ -11,8 +11,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'Top',
+      component: Top
     },
     {
       path: '/skills',
