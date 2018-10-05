@@ -60,7 +60,7 @@ a {
 /* スマートフォン */
 @media (max-width: 670px) {
   a {
-    width: 100%;
+    width: 40%;
   }
 }
 

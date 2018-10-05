@@ -95,7 +95,7 @@ h3 {
 /* スマートフォン */
 @media (max-width: 670px) {
   .hello {
-    height: 76vh;
+    height: 82h;
   }
   h1 {
     padding-top: 10vh;
