@@ -1,9 +1,10 @@
 <template>
   <header>
     <ul>
-      <a>Skills</a>
-      <a>Works</a>
-      <a>Contact</a>
+      <router-link to="/">Top</router-link>
+      <router-link to="/skills">Skills</router-link>
+      <router-link to="/works">Works</router-link>
+      <router-link to="/contacts">Contacts</router-link>
     </ul>
   </header>
 </template>
@@ -23,7 +24,6 @@ export default {
 header{
   width : 100%;
   background-color : rgba(0,0,0,1);
-  color : white;
   top : 0px;
   position: fixed;
 }
@@ -40,6 +40,8 @@ a{
   font-size: 18px;
   text-align: center;
   display: inline-block;
+  color : white;
+  text-decoration: none;
 }
 
 a:hover{

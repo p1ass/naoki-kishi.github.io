@@ -99,7 +99,6 @@ export default {
 <style scoped>
 
 .hello{
-  height: 1000px;
   margin-top : 80px;
 }
 h1, h2 {

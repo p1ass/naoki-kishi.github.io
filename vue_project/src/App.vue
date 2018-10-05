@@ -14,7 +14,7 @@ export default {
   name: 'App',
   components: {
     myHeader,
-    myFooter
+    myFooter,
   }
 }
 </script>
