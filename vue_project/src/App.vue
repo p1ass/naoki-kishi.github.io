@@ -24,7 +24,6 @@ export default {
 
 #app {
   font-family: "Hiragino Kaku Gothic ProN";
-  text-align: center;
 }
 
 body{

@@ -16,6 +16,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.contacts-wrapper{
+  text-align: center;
+}
 
 h1{
   font-weight: normal;
