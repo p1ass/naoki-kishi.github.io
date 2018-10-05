@@ -24,11 +24,13 @@ export default {
 header{
   width : 100%;
   background-color : rgba(255,255,255,1);
+  /* background:linear-gradient(to left, rgba(148, 115, 221,0.2) 0%, rgba(79, 210, 219,0.2) 100%); */
   /* border-bottom: 2x solid rgba(200,200,200,0.5); */
-  box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.2);
   position: relative;
   top:0px;
   z-index: 10;
+
 }
 
 a{

@@ -27,7 +27,6 @@ export default {
   text-align: center;
 }
 
-
 body{
   margin : 0px;
 }
