@@ -23,10 +23,11 @@ export default {
 <style scoped>
 header{
   width : 100%;
-  background-color : rgba(255,255,255,0.0);
+  background-color : rgba(255,255,255,1);
   /* border-bottom: 2x solid rgba(200,200,200,0.5); */
   box-shadow : 0px 0px 10px 0px rgba(0,0,0,0.3);
   position: relative;
+  top:0px;
   z-index: 10;
 }
 
@@ -37,7 +38,6 @@ a{
   transition: all 0.3s;
   cursor: pointer;
   font-size: 18px;
-  /* text-align: center; */
   display: inline-block;
   color : black;
   text-decoration: none;

@@ -17,10 +17,6 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-.contacts-wrapper{
-  margin-top : 100px;
-}
-
 h1{
   font-weight: normal;
 }

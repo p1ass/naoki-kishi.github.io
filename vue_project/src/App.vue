@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <myHeader></myHeader>
-    <transition name="page-fade" appear>
+    <transition name="page-fade" mode="out-in">
       <router-view/>
     </transition>
   </div>
@@ -24,28 +24,18 @@ export default {
 
 #app {
   font-family: "Hiragino Kaku Gothic ProN";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin : 0px;
 }
+
 
 body{
   margin : 0px;
 }
-.page-fade-enter{
+
+.page-fade-enter-active, .page-fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.page-fade-enter, .page-fade-leave-to{
   opacity: 0;
 }
-.page-fade-enter-active{
-  transition: opacity 0.5s;
-  transition-delay: 0.5s;
-}
-
-.page-fade-leave-top{
-  opacity: 0;
-}
-.page-fade-leave-active{
-  transition: opacity 0.4s;
-}
-
 </style>
