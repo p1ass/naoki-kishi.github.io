@@ -30,7 +30,7 @@ h1{
   color:white;
   letter-spacing: 3px;
   font-weight: normal;
-  border: 1px solid rgba(255,255,255,1);
+  border-bottom: 1px solid rgba(255,255,255,1);
   margin:0;
   text-shadow: 0px 0px 30px rgba(0,0,0,0.2);
 }
@@ -41,7 +41,7 @@ h1{
     height: 88vh;
   }
   h1{
-    padding-top:20vh;
+    padding-top:30vh;
     font-size : 40px;
   }
 }
