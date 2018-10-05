@@ -1,6 +1,6 @@
 <template>
 <div class = "contacts-wrapper">
-  <p>Contacts</p>
+  <h1>Contacts</h1>
 </div>
 </template>
 
@@ -19,5 +19,9 @@ export default {
 
 .contacts-wrapper{
   margin-top : 100px;
+}
+
+h1{
+  font-weight: normal;
 }
 </style>

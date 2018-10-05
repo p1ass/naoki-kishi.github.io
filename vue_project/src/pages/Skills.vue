@@ -1,6 +1,6 @@
 <template>
 <div class = "skills-wrapper">
-  <p>Skills</p>
+  <h1>Skills</h1>
 </div>
 </template>
 
@@ -19,5 +19,9 @@ export default {
 
 .skills-wrapper{
   margin-top : 100px;
+}
+
+h1{
+  font-weight: normal;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
   <header>
-    <ul>
+    <div class = "link">
       <router-link to="/">Top</router-link>
       <router-link to="/skills">Skills</router-link>
       <router-link to="/works">Works</router-link>
       <router-link to="/contacts">Contacts</router-link>
-    </ul>
+    </div>
   </header>
 </template>
 
@@ -23,14 +23,10 @@ export default {
 <style scoped>
 header{
   width : 100%;
-  background-color : rgba(0,0,0,1);
+  background-color : rgba(255,255,255,0.0);
   top : 0px;
   position: fixed;
-}
-ul{
-  list-style: none;
-  margin: 0 auto;
-  text-align:center;
+  border-bottom: 2px solid rgba(200,200,200,0.5);
 }
 
 a{
@@ -38,13 +34,13 @@ a{
   transition: all 0.3s;
   cursor: pointer;
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
   display: inline-block;
-  color : white;
+  color : black;
   text-decoration: none;
 }
 
 a:hover{
-  background-color : rgba(255,255,255,0.5);
+  background-color : rgba(200,200,200,0.3);
 }
 </style>
