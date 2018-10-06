@@ -37,7 +37,7 @@ export default {
   background: linear-gradient(
     to left,
     rgb(148, 115, 221) 0%,
-    rgb(79, 210, 219) 100%
+    rgb(51, 191, 219) 100%
   );
   text-align: center;
 }
@@ -77,7 +77,7 @@ h3 {
 }
 
 .fa {
-  color: rgb(148, 115, 221);
+  color: rgba(0, 0, 0,0.4);
   font-size: 40px;
   line-height: 100px;
 }
@@ -99,7 +99,7 @@ h3 {
     background: linear-gradient(
       to bottom,
       rgb(148, 115, 221) 0%,
-      rgb(79, 210, 219) 100%
+      rgb(51, 191, 219) 100%
   );
   }
   h1 {

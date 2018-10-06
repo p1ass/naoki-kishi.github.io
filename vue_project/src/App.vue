@@ -21,7 +21,7 @@ export default {
 <style>
 
 #app {
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
 }
 
 body{
