@@ -1,6 +1,6 @@
 <template>
 <div class = 'skills-wrapper'>
-  <h1>Skills</h1>
+  <pageTitle title="Skills"></pageTitle>
   <div class='skills'>
     <div class='skill'>
     </div>
@@ -19,8 +19,13 @@
 </template>
 
 <script>
+import pageTitle from '@/components/pageTitle'
+
 export default {
   name: 'Skills',
+  components: {
+    pageTitle
+  },
   data () {
     return {}
   }
@@ -55,9 +60,5 @@ export default {
     width : 260px;
     height: 260px;
   }
-}
-
-h1 {
-  font-weight: normal;
 }
 </style>

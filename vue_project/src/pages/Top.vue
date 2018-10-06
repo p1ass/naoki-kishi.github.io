@@ -96,6 +96,11 @@ h3 {
 @media (max-width: 670px) {
   .hello {
     height: 82h;
+    background: linear-gradient(
+      to bottom,
+      rgb(148, 115, 221) 0%,
+      rgb(79, 210, 219) 100%
+  );
   }
   h1 {
     padding-top: 10vh;

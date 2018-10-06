@@ -1,12 +1,17 @@
 <template>
 <div class = "contacts-wrapper">
-  <h1>Contacts</h1>
+  <pageTitle title="Contacts"></pageTitle>
 </div>
 </template>
 
 <script>
+import pageTitle from '@/components/pageTitle'
+
 export default {
   name: 'Contacts',
+  components: {
+    pageTitle
+  },
   data () {
     return {
     }
@@ -18,9 +23,5 @@ export default {
 <style scoped>
 .contacts-wrapper{
   text-align: center;
-}
-
-h1{
-  font-weight: normal;
 }
 </style>

@@ -1,12 +1,17 @@
 <template>
 <div class = "about-wrapper">
-  <h1>About Me</h1>
+  <pageTitle title="About Me"></pageTitle>
 </div>
 </template>
 
 <script>
+import pageTitle from '@/components/pageTitle'
+
 export default {
   name: 'About',
+  components: {
+    pageTitle
+  },
   data () {
     return {
     }
@@ -19,9 +24,5 @@ export default {
 
 .about-wrapper{
   text-align: center;
-}
-
-h1{
-  font-weight: normal;
 }
 </style>

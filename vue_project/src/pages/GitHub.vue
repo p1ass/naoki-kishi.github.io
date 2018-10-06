@@ -1,12 +1,17 @@
 <template>
 <div class = "github-wrapper">
-  <h1>GitHub</h1>
+  <pageTitle title="GitHub"></pageTitle>
 </div>
 </template>
 
 <script>
+import pageTitle from '@/components/pageTitle'
+
 export default {
   name: 'GitHub',
+  components: {
+    pageTitle
+  },
   data () {
     return {
     }
@@ -19,9 +24,5 @@ export default {
 
 .github-wrapper{
   text-align: center;
-}
-
-h1{
-  font-weight: normal;
 }
 </style>
