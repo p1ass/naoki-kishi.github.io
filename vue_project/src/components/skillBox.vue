@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name : 'skillBox',
+  name: 'skillBox',
   props: ['skill'],
   data () {
     return {
@@ -18,13 +18,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import '@/assets/styles/_color.scss';
+@import '@/assets/styles/_mixin.scss';
+
 .skill {
+  @include box-shadow;
   width: 300px;
   height: 300px;
   display: inline-block;
   vertical-align: top;
   margin: 20px;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
   position: relative;
 }
@@ -48,7 +51,7 @@ h2 {
   text-align: left;
   margin: 0 20px;
   word-break:break-all;
-  color : rgb(40, 40, 40);
+  color : $text-color;
 }
 
 .term{
@@ -59,7 +62,7 @@ h2 {
   left: 0px;
   text-align: center;
   margin: 20px 0px;
-  color : rgb(40, 40, 40);
+  color : $text-color;
 }
 
 </style>

@@ -22,13 +22,13 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="scss" scoped>
+@import '@/assets/styles/_color.scss';
 
 header {
   width: 100%;
   text-align: center;
-  background-color: rgb(255, 255, 255);
+  background-color:white;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   position: relative;
   top: 0px;
@@ -45,6 +45,10 @@ a {
   text-decoration: none;
   width: 150px;
   display: inline-block;
+
+  &:hover{
+    background-color: darken(white,5%);
+  }
 }
 
 .clear {
@@ -62,9 +66,5 @@ a {
   a {
     width: 40%;
   }
-}
-
-a:hover {
-  background-color: rgba(200, 200, 200, 0.3);
 }
 </style>
