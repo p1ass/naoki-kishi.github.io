@@ -32,7 +32,7 @@ export default {
 @media (max-width: 1000px) {
   .skill {
     width: 260px;
-    height: 260px;
+    height: 300px;
   }
 }
 
