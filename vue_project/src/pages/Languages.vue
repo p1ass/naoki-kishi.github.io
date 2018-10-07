@@ -44,7 +44,7 @@ export default {
     return {
       languages: [
         {name: 'Python',
-          content: '私が最も使っている言語です。Django REST Frameworkを使ったAPI実装やKU休講情報Bot(@KUBotver2)の開発などを行いました。',
+          content: '私が一番使っている言語です。Django REST Frameworkを使ったAPI実装やKU休講情報Bot(@KUBotver2)の開発などを行いました。',
           term: '2年'},
         {name: 'C',
           content: '私が初めて学んだ言語です。高校生の時に1年ほど勉強しました。その後、大学の授業で基礎的なニューラルネットワークの実装などを行いました。',

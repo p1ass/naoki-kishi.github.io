@@ -24,7 +24,7 @@ export default {
     return {
       works: [
         {name: 'Portfolio Site',
-          content: '今までフロントエンドの勉強をしたことがなかったので、勉強のために作成しました。Vue.jsの単一コンポーネントを使ってページを構成しており、ページ遷移にはVue Routerを使ってSPA化しています。',
+          content: '今までフロントエンドの勉強をしたことがなかったので、勉強のために作成しました。デザインはiPhoneのApp StoreのようなドロップシャドウやInstagramのアイコンのようなグラデーションを意識しました。',
           term: 'https://github.com/naoki-kishi/naoki-kishi.github.io'},
         {name: 'KU休講情報Bot',
           content: '京都大学の休講情報を定期的につぶやくBotです。EC2上でcronを使って動かしています。Pythonで書かれており、休講情報はSeleniumとChrome Driverを使ってスクレイピングで取得しています。',
