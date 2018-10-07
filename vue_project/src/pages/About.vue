@@ -4,9 +4,17 @@
   <div class="self-introduction">
     <table>
       <tbody>
-      <tr>
+        <tr>
           <th>Name</th>
           <td>岸 直輝 (Naoki Kishi)</td>
+        </tr>
+        <tr>
+          <th>University</th>
+          <td>京都大学 工学部 電気電子工学科</td>
+        </tr>
+        <tr>
+          <th>Birthday</th>
+          <td>1998/11/24</td>
         </tr>
         <tr>
           <th>GitHub</th>
