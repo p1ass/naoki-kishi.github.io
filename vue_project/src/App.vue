@@ -7,7 +7,6 @@
   </div>
 </template>
 
-<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5bb9b5a1fffc462f83843cf5ac1e02ec" charset="utf-8"></script>
 
 <script>
 import myHeader from './components/myHeader'
