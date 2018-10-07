@@ -36,8 +36,8 @@ header {
 }
 
 a {
-  height: 6vh;
-  line-height: 6vh;
+  height: 60px;
+  line-height: 60px;
   transition: all 0.3s;
   cursor: pointer;
   font-size: 18px;
@@ -58,6 +58,7 @@ a {
 @media (max-width: 1000px) {
   a {
     width: 30%;
+    height : 60px;
   }
 }
 
