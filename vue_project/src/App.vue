@@ -7,6 +7,8 @@
   </div>
 </template>
 
+<script type="text/javascript" src="//typesquare.com/3/tsst/script/ja/typesquare.js?5bb9b5a1fffc462f83843cf5ac1e02ec" charset="utf-8"></script>
+
 <script>
 import myHeader from './components/myHeader'
 
@@ -20,7 +22,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family:"新ゴ L"
 }
 
 body{
