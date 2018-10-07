@@ -2,22 +2,37 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="icon" type="image/png" href="/static/icon.png">
-	<title>Naoki Kishi's Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/static/icon.png">
+    <title>Naoki Kishi's Portfolio</title>
 
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:site" content="@plus_kyoto" />
-	<meta name="og:title" content="Naoki Kishi's Portfolio Site" />
-	<meta name="og:description" content="Naoki Kishiのポートフォリオサイトです" />
-	<meta name="og:image" content="https://naoki-kishi.github.io/static/icon-512.png" />
-	<meta name="og:url" content="https://naoki-kishi.github.io/"/>
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@plus_kyoto" />
+		<meta name="og:title" content="Naoki Kishi's Portfolio Site" />
+		<meta name="og:description" content="Naoki Kishiのポートフォリオサイトです" />
+		<meta name="og:image" content="https://naoki-kishi.github.io/static/icon-512.png" />
+		<meta name="og:url" content="https://naoki-kishi.github.io/"/>
+
+  <script>
+    (function (l) {
+      if (l.search) {
+        var q = {};
+        l.search.slice(1).split('&').forEach(function (v) { // ?p=/fooの分解
+          var a = v.split('='); // 'p=/foo' となっているはずなので=で分割
+          q[a[0]] = a[1]; // {p: '/foo'} 形式に修正
+        });
+        if (q.p !== undefined) {
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || '')); // https://hoge.com/fooへ遷移
+        }
+      }
+    }(window.location))
+  </script>
 </head>
 
 <body>
-	<div id="app"></div>
-	<!-- built files will be auto injected -->
+		<div id="app"></div>
+		<!-- built files will be auto injected -->
 </body>
 
 </html>
