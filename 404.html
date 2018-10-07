@@ -1,11 +1,16 @@
 <!DOCTYPE html>
+<html lang="ja">
+
 <head>
-	<script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Not Found</title>
+	<script>let segmentCount = 1;
 		let l = window.location;
 		let port = l.port ? ':' + l.port : ''
 		l.replace(
 			`${l.protocol}//${l.hostname}${port}/?p=${l.pathname.split('/').slice(0, 1 + segmentCount).join('/')}`
 		)
 	</script>
-	<title>404 Not Found</title>
 </head>
+</html>
