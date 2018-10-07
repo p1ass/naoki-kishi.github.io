@@ -82,6 +82,7 @@ h3 {
   display: inline-block;
   margin: 20px;
   margin-top:0px;
+  transition: all 0.3s;
 
   &:hover{
   background-color: darken(white, 10%);
@@ -115,24 +116,28 @@ h3 {
       $main-color-2 100%
   );
   }
+
+  .share{
+    position: relative;
+  }
   h1 {
     padding-top: 10vh;
     font-size: 30px;
   }
 
   h3{
-    margin-top : 70px;
-    margin-bottom: 10px
+    margin-top : 100px;
+    margin-bottom: 10px;
   }
   .button{
-    width:80%;
-    height: 50px;
-    border-radius: 100px;
+    width:70px;
+    height: 70px;
+    border-radius: 70px;
 
   }
 
   .fa{
-    line-height: 50px;
+    line-height: 70px;
   }
 }
 </style>

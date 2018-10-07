@@ -65,6 +65,7 @@ a {
 @media (max-width: 670px) {
   a {
     width: 40%;
+    height : 30px;
   }
 }
 </style>
