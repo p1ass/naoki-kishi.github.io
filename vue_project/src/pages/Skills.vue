@@ -2,22 +2,44 @@
 <div class = 'skills-wrapper'>
   <pageTitle title='Languages'></pageTitle>
   <div class='skills'>
-    <skillBox  v-bind:key='skill.term' v-for='skill in skills' v-bind:skill='skill'></skillBox>
+    <box v-bind:key='skill.term' v-for='skill in skills' v-bind:item='skill'>
+      使用歴 : {{skill.term}}
+    </box>
   </div>
 </div>
 </template>
 
 <script>
 import pageTitle from '@/components/pageTitle'
-import skillBox from '@/components/skillBox'
+import box from '@/components/box'
 
 export default {
   name: 'Skills',
   components: {
     pageTitle,
-    skillBox
+    box
   },
   data () {
+    const yourBirthDay = {
+      year: 1998,
+      month: 11,
+      date: 24
+    }
+
+    // Dateインスタンスに変換
+    const birthDate = new Date(yourBirthDay.year, yourBirthDay.month - 1, yourBirthDay.date)
+
+    // 文字列に分解
+    const y2 = birthDate.getFullYear().toString().padStart(4, '0')
+    const m2 = (birthDate.getMonth() + 1).toString().padStart(2, '0')
+    const d2 = birthDate.getDate().toString().padStart(2, '0')
+
+    const today = new Date()
+    const y1 = today.getFullYear().toString().padStart(4, '0')
+    const m1 = (today.getMonth() + 1).toString().padStart(2, '0')
+    const d1 = today.getDate().toString().padStart(2, '0')
+    const age = Math.floor((Number(y1 + m1 + d1) - Number(y2 + m2 + d2)) / 10000)
+
     return {
       skills: [
         {name: 'Python',
@@ -34,10 +56,10 @@ export default {
           term: '1ヶ月'},
         {name: 'JavaScript (ES6)',
           content: 'こちらもポートフォリオサイト作成に当たって勉強しました。Progateを使って学んだ後は分からないところが見つかるたびに調べて勉強しました。',
-          term: '2年'},
-        {name: 'Ruby',
-          content: 'Ruby on Railsを使用したくて勉強しました。Rails Tutorialを一周しつつ基本的な文法を習得しました。',
-          term: '1ヶ月'}
+          term: '1ヶ月'},
+        {name: 'Japanese',
+          content: '最も自由に扱える言語といって差し支えない実力を持っています。',
+          term: '' + age + '年'}
       ]
     }
   }
