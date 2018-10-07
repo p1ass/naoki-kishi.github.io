@@ -1,9 +1,9 @@
 <template>
-<div class = 'skills-wrapper'>
+<div class = 'languages-wrapper'>
   <pageTitle title='Languages'></pageTitle>
-  <div class='skills'>
-    <box v-bind:key='skill.term' v-for='skill in skills' v-bind:item='skill'>
-      使用歴 : {{skill.term}}
+  <div class='languages'>
+    <box v-bind:key='language.term' v-for='language in languages' v-bind:item='language'>
+      使用歴 : {{language.term}}
     </box>
   </div>
 </div>
@@ -14,7 +14,7 @@ import pageTitle from '@/components/pageTitle'
 import box from '@/components/box'
 
 export default {
-  name: 'Skills',
+  name: 'Languages',
   components: {
     pageTitle,
     box
@@ -41,9 +41,9 @@ export default {
     const age = Math.floor((Number(y1 + m1 + d1) - Number(y2 + m2 + d2)) / 10000)
 
     return {
-      skills: [
+      languages: [
         {name: 'Python',
-          content: '私が最も使っている言語です。Django Rest Frameworkを使ったAPI実装やKU休講情報Bot(@KUBotver2)の開発などを行いました。',
+          content: '私が最も使っている言語です。Django REST Frameworkを使ったAPI実装やKU休講情報Bot(@KUBotver2)の開発などを行いました。',
           term: '2年'},
         {name: 'C',
           content: '私が初めて学んだ言語です。高校生の時に1年ほど勉強しました。その後、大学の授業で基礎的なニューラルネットワークの実装などを行いました。',
@@ -67,11 +67,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.skills-wrapper {
+.languages-wrapper {
   text-align: center;
 }
 
-.skills {
+.languages {
   max-width: 1200px;
   margin: 0;
   display: inline-block;

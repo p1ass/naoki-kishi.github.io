@@ -1,13 +1,13 @@
 <template>
   <header>
-    <div class = "link">
-      <router-link to="/">Top</router-link>
-      <router-link to="/about">About</router-link>
-      <router-link to="/skills">Skills</router-link>
-      <router-link to="/works">Works</router-link>
-      <router-link to="/github">GitHub</router-link>
-      <router-link to="/contacts">Contacts</router-link>
-      <div class="clear"></div>
+    <div class = 'link'>
+      <router-link to='/'>Top</router-link>
+      <router-link to='/about'>About</router-link>
+      <router-link to='/languages'>Languages</router-link>
+      <router-link to='/tools'>Tools</router-link>
+      <router-link to='/works'>Works</router-link>
+      <router-link to='/contacts'>Contacts</router-link>
+      <div class='clear'></div>
     </div>
   </header>
 </template>
@@ -22,7 +22,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang='scss' scoped>
 @import '@/assets/styles/_color.scss';
 
 header {

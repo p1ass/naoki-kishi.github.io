@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Top from '@/pages/Top'
 import About from '@/pages/About'
-import Skills from '@/pages/Skills'
+import Languages from '@/pages/Languages'
 import Works from '@/pages/Works'
-import GitHub from '@/pages/GitHub'
+import Tools from '@/pages/Tools'
 import Contacts from '@/pages/Contacts'
 
 Vue.use(Router)
@@ -22,19 +22,19 @@ export default new Router({
       component: About
     },
     {
-      path: '/skills',
-      name: 'Skills',
-      component: Skills
+      path: '/languages',
+      name: 'Languages',
+      component: Languages
+    },
+    {
+      path: '/tools',
+      name: 'Tools',
+      component: Tools
     },
     {
       path: '/works',
       name: 'Works',
       component: Works
-    },
-    {
-      path: '/github',
-      name: 'GitHub',
-      component: GitHub
     },
     {
       path: '/contacts',

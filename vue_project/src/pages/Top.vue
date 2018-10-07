@@ -53,6 +53,8 @@ h1 {
   letter-spacing: 3px;
   font-weight: normal;
   border-bottom: 1px solid white;
+  padding-right : 20px;
+  padding-left : 20px;
   margin: 0;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
 }
