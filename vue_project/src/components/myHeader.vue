@@ -59,6 +59,7 @@ a {
   a {
     width: 30%;
     height : 60px;
+    line-height: 60px;
   }
 }
 
@@ -67,6 +68,7 @@ a {
   a {
     width: 40%;
     height : 35px;
+    line-height: 35px;
   }
 }
 </style>
