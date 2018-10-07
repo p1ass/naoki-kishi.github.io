@@ -22,6 +22,7 @@
 <script>
 export default {
   name: 'Top',
+  title: ' ',
   data () {
     return {
       msg: 'Welcome to Naoki Kishi\'s Portfolio Site'

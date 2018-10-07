@@ -15,6 +15,7 @@ import box from '@/components/box'
 
 export default {
   name: 'Languages',
+  title: 'Languages -',
   components: {
     pageTitle,
     box

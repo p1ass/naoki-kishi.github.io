@@ -39,6 +39,7 @@ import pageTitle from '@/components/pageTitle'
 
 export default {
   name: 'About',
+  title: 'About - ',
   components: {
     pageTitle
   },

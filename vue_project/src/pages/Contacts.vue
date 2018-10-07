@@ -12,6 +12,7 @@ import pageTitle from '@/components/pageTitle'
 
 export default {
   name: 'Contacts',
+  title: 'Contacts -',
   components: {
     pageTitle
   },
