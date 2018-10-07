@@ -6,11 +6,11 @@
         <h3>Share</h3>
 
         <div class = 'share-buttons'>
-          <a href='https://twitter.com' target='_blank'>
+          <a href="http://twitter.com/share?url=https://naoki-kishi.github.io&text=Naoki Kishi's Portfolio Site&via=plus_kyoto" target='_blank'>
             <div class='button fa fa-twitter'>
             </div>
           </a>
-          <a href='https://facebook.com' target='_blank'>
+          <a href="http://www.facebook.com/sharer.php?u=https://naoki-kishi.github.io" target='_blank'>
             <div class='button fa fa-facebook'>
             </div>
           </a>
