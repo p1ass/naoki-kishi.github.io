@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
+  <div id='app'>
     <myHeader></myHeader>
-    <transition name="page-fade" mode="out-in">
+    <transition name='page-fade' mode='out-in'>
       <router-view/>
     </transition>
   </div>
@@ -9,12 +9,18 @@
 
 <script>
 import myHeader from './components/myHeader'
-const WebFont = require('webfontloader')
+import WebFont from 'webfontloader'
 
 WebFont.load({
   custom: {
-    families: ['GenShinGothic'],
-    urls: ['sample.css']
+    families: [
+      'Rounded Mplus 1c',
+      'Noto Sans Japanese'
+    ],
+    urls: [
+      'https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css',
+      'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css'
+    ]
   },
   loading: function () {
     console.log('loading')
@@ -44,11 +50,14 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#app {
-  font-family:'GenShinGothic'
+<style lang='scss'>
+#app{
+  font-family: 'Noto Sans Japanese';
 }
 
+p{
+  font-family: 'Rounded Mplus 1c';
+}
 body{
   margin : 0px;
 }

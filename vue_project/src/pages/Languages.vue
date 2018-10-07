@@ -2,7 +2,7 @@
 <div class = 'languages-wrapper'>
   <pageTitle title='Languages'></pageTitle>
   <div class='languages'>
-    <box v-bind:key='language.term' v-for='language in languages' v-bind:item='language'>
+    <box v-bind:key='language.name' v-for='language in languages' v-bind:item='language'>
       使用歴 : {{language.term}}
     </box>
   </div>

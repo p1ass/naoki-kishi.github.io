@@ -2,7 +2,7 @@
 <div class = 'tools-wrapper'>
   <pageTitle title='Tools & Frameworks'></pageTitle>
   <div class='tools'>
-    <box v-bind:key='tool.term' v-for='tool in tools' v-bind:item='tool'>
+    <box v-bind:key='tool.name' v-for='tool in tools' v-bind:item='tool'>
       使用歴 : {{tool.term}}
     </box>
   </div>
