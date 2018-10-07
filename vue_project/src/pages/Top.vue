@@ -109,7 +109,7 @@ h3 {
 /* スマートフォン */
 @media (max-width: 670px) {
   .hello {
-    height: 82h;
+    height: 82vh;
     background: linear-gradient(
       to bottom,
       $main-color-1 0%,
