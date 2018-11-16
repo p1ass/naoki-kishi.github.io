@@ -1,6 +1,6 @@
 <template>
 <div class = 'tools-wrapper'>
-  <pageTitle title='Tools & Frameworks'></pageTitle>
+  <pageTitle title='Frameworks & Tools'></pageTitle>
   <div class='tools'>
     <box v-bind:key='tool.name' v-for='tool in tools' v-bind:item='tool'>
       使用歴 : {{tool.term}}
@@ -14,8 +14,8 @@ import pageTitle from '@/components/pageTitle'
 import box from '@/components/box'
 
 export default {
-  name: 'Tools',
-  title: 'Tools -',
+  name: 'Frameworks',
+  title: 'Frameworks -',
   components: {
     pageTitle,
     box
@@ -26,8 +26,8 @@ export default {
         {name: 'Django',
           content: 'Django REST Frameworkを使ったバックエンドAPIの実装の経験があります。また、Firebase Authenticationと連携させて認証ありAPIの実装も行いました。',
           term: '6ヶ月'},
-        {name: 'Vue.js',
-          content: 'ポートフォリオサイト作成のために勉強をしました。.vueファイルを用いた単一コンポーネントやVue Routerを使ったSPAの実装を行いました。',
+        {name: 'Vue.js / Nuxt.js',
+          content: 'ポートフォリオサイト作成のために勉強しました。.vueファイルを用いた単一コンポーネントやVue Routerを使ったSPAの実装を行いました。また、えもじっくの作成にはNuxt.jsを使いました。',
           term: '1ヶ月'},
         {name: 'Firebase',
           content: '主にFirebase Authenticationを使用したログイン機能の実装を行いました。JWTを使ったサーバーサイドとの連携の実装をしました。',
@@ -40,7 +40,7 @@ export default {
           term: '6ヶ月'},
         {name: 'Circle CI',
           content: 'Django REST Frameworkで作成したAPIの自動テストを行っています。Circle CI上のVMでdocker-composeを立ち上げてローカルと同じ環境でテストできるようにしています。',
-          term: '1ヶ月'}
+          term: '2ヶ月'}
       ]
     }
   }
@@ -49,12 +49,12 @@ export default {
 
 <style lang='scss' scoped>
 .tools-wrapper {
-  text-align: center;
+	text-align: center;
 }
 
 .tools {
-  max-width: 1200px;
-  margin: 0;
-  display: inline-block;
+	max-width: 1200px;
+	margin: 0;
+	display: inline-block;
 }
 </style>
