@@ -36,8 +36,8 @@ header {
 }
 
 a {
-	height: 60px;
-	line-height: 60px;
+	height: 7vh;
+	line-height: 7vh;
 	transition: all 0.3s;
 	cursor: pointer;
 	font-size: 18px;
