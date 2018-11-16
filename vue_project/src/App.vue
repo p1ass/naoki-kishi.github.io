@@ -14,11 +14,9 @@ import WebFont from 'webfontloader'
 WebFont.load({
   custom: {
     families: [
-      'Rounded Mplus 1c',
       'Noto Sans Japanese'
     ],
     urls: [
-      'https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css',
       'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css'
     ]
   },
@@ -51,21 +49,20 @@ export default {
 </script>
 
 <style lang='scss'>
-#app{
-  font-family: 'Noto Sans Japanese';
+#app {
+	font-family: 'Noto Sans Japanese';
 }
 
-p{
-  font-family: 'Rounded Mplus 1c';
-}
-body{
-  margin : 0px;
+body {
+	margin: 0px;
 }
 
-.page-fade-enter-active, .page-fade-leave-active {
-  transition: opacity 0.3s ease;
+.page-fade-enter-active,
+.page-fade-leave-active {
+	transition: opacity 0.3s ease;
 }
-.page-fade-enter, .page-fade-leave-to{
-  opacity: 0;
+.page-fade-enter,
+.page-fade-leave-to {
+	opacity: 0;
 }
 </style>

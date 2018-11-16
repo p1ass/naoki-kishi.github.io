@@ -23,6 +23,9 @@ export default {
   data () {
     return {
       works: [
+        {name: 'えもじっく',
+          content: 'OpenCVの顔認識機能を使って、人の画像を絵文字に変換するWebサービスです。フロントエンドにはNuxt.jsを、バックエンドにはPythonをAWS Lmabda上で使っています。',
+          term: 'https://emojic.ch'},
         {name: 'Portfolio Site',
           content: '今までフロントエンドの勉強をしたことがなかったので、勉強のために作成しました。デザインはiPhoneのApp StoreのようなドロップシャドウやInstagramのアイコンのようなグラデーションを意識しました。',
           term: 'https://github.com/naoki-kishi/naoki-kishi.github.io'},
@@ -40,16 +43,16 @@ export default {
 
 <style lang='scss' scoped>
 .works-wrapper {
-  text-align: center;
+	text-align: center;
 }
 
 .works {
-  max-width: 1200px;
-  margin: 0;
-  display: inline-block;
+	max-width: 1200px;
+	margin: 0;
+	display: inline-block;
 }
 
-a{
-  text-decoration: none;
+a {
+	text-decoration: none;
 }
 </style>

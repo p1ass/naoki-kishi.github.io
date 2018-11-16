@@ -52,12 +52,12 @@ export default {
         {name: 'Kotlin',
           content: 'LINE SUMMER INTERNSHIP 2018 エンジニアスクールコースにて使用しました。Spring Bootを用いたサーバーサイドAPIの実装やAndroidクライアントの作成を行いました。',
           term: '3ヶ月'},
-        {name: 'HTML & CSS & SCSS',
+        {name: 'HTML & SCSS',
           content: 'このポートフォリオサイトを作成に当たって勉強しました。基本知識はProgateを使って学びました。',
-          term: '1ヶ月'},
+          term: '3ヶ月'},
         {name: 'JavaScript (ES6)',
           content: 'こちらもポートフォリオサイト作成に当たって勉強しました。Progateを使って学んだ後は分からないところが見つかるたびに調べて勉強しました。',
-          term: '1ヶ月'},
+          term: '3ヶ月'},
         {name: 'Japanese',
           content: '最も自由に扱える言語といって差し支えない実力を持っています。',
           term: '' + age + '年'}
@@ -69,12 +69,12 @@ export default {
 
 <style lang='scss' scoped>
 .languages-wrapper {
-  text-align: center;
+	text-align: center;
 }
 
 .languages {
-  max-width: 1200px;
-  margin: 0;
-  display: inline-block;
+	max-width: 1200px;
+	margin: 0;
+	display: inline-block;
 }
 </style>

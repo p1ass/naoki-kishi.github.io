@@ -4,7 +4,7 @@ import Top from '@/pages/Top'
 import About from '@/pages/About'
 import Languages from '@/pages/Languages'
 import Works from '@/pages/Works'
-import Tools from '@/pages/Tools'
+import Frameworks from '@/pages/Frameworks'
 import Contacts from '@/pages/Contacts'
 
 Vue.use(Router)
@@ -28,9 +28,9 @@ export default new Router({
       component: Languages
     },
     {
-      path: '/tools',
-      name: 'Tools',
-      component: Tools
+      path: '/frameworks',
+      name: 'Frameworks',
+      component: Frameworks
     },
     {
       path: '/works',
