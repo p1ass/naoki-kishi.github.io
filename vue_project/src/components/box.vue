@@ -11,8 +11,7 @@ export default {
   name: 'box',
   props: ['item'],
   data () {
-    return {
-    }
+    return {}
   }
 }
 </script>
@@ -23,25 +22,24 @@ export default {
 
 .box {
   @include box-shadow;
-  @include box(300px,300px);
+  @include box(300px, 300px);
 }
 
 @media (max-width: 1000px) {
   .box {
-    @include box-smartphone(260px,320px);
+    @include box-smartphone(260px, 320px);
   }
 }
 
 h2 {
-  @include  box-title;
+  @include box-title;
 }
 
-.box-content{
+.box-content {
   @include box-content;
 }
 
-.sub-content{
+.sub-content {
   @include box-sub-content;
 }
-
 </style>

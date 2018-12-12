@@ -23,24 +23,42 @@ export default {
   data () {
     return {
       tools: [
-        {name: 'Django',
-          content: 'Django REST Frameworkを使ったバックエンドAPIの実装の経験があります。また、Firebase Authenticationと連携させて認証ありAPIの実装も行いました。',
-          term: '6ヶ月'},
-        {name: 'Vue.js / Nuxt.js',
-          content: 'ポートフォリオサイト作成のために勉強しました。.vueファイルを用いた単一コンポーネントやVue Routerを使ったSPAの実装を行いました。また、えもじっくの作成にはNuxt.jsを使いました。',
-          term: '1ヶ月'},
-        {name: 'Firebase',
-          content: '主にFirebase Authenticationを使用したログイン機能の実装を行いました。JWTを使ったサーバーサイドとの連携の実装をしました。',
-          term: '3ヶ月'},
-        {name: 'GitHub',
-          content: '基本的なgitの使い方を習得しています。また、複数人での共同開発やプルリク駆動開発の経験があります。',
-          term: '1年'},
-        {name: 'Docker',
-          content: 'Dockerやdocker-composeを用いて、コンテナ環境での開発を行っています。',
-          term: '6ヶ月'},
-        {name: 'Circle CI',
-          content: 'Django REST Frameworkで作成したAPIの自動テストを行っています。Circle CI上のVMでdocker-composeを立ち上げてローカルと同じ環境でテストできるようにしています。',
-          term: '2ヶ月'}
+        {
+          name: 'Django',
+          content:
+            'Django REST Frameworkを使ったバックエンドAPIの実装の経験があります。また、Firebase Authenticationと連携させて認証ありAPIの実装も行いました。',
+          term: '6ヶ月'
+        },
+        {
+          name: 'Vue.js / Nuxt.js',
+          content:
+            'ポートフォリオサイト作成のために勉強しました。.vueファイルを用いた単一コンポーネントやVue Routerを使ったSPAの実装を行いました。また、えもじっくの作成にはNuxt.jsを使いました。',
+          term: '1ヶ月'
+        },
+        {
+          name: 'Firebase',
+          content:
+            '主にFirebase Authenticationを使用したログイン機能の実装を行いました。JWTを使ったサーバーサイドとの連携の実装をしました。',
+          term: '3ヶ月'
+        },
+        {
+          name: 'GitHub',
+          content:
+            '基本的なgitの使い方を習得しています。また、複数人での共同開発やプルリク駆動開発の経験があります。',
+          term: '1年'
+        },
+        {
+          name: 'Docker',
+          content:
+            'Dockerやdocker-composeを用いて、コンテナ環境での開発を行っています。',
+          term: '6ヶ月'
+        },
+        {
+          name: 'Circle CI',
+          content:
+            'Django REST Frameworkで作成したAPIの自動テストを行っています。Circle CI上のVMでdocker-composeを立ち上げてローカルと同じ環境でテストできるようにしています。',
+          term: '2ヶ月'
+        }
       ]
     }
   }
@@ -49,12 +67,12 @@ export default {
 
 <style lang='scss' scoped>
 .tools-wrapper {
-	text-align: center;
+  text-align: center;
 }
 
 .tools {
-	max-width: 1200px;
-	margin: 0;
-	display: inline-block;
+  max-width: 1200px;
+  margin: 0;
+  display: inline-block;
 }
 </style>

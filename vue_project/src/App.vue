@@ -13,12 +13,8 @@ import WebFont from 'webfontloader'
 
 WebFont.load({
   custom: {
-    families: [
-      'Noto Sans Japanese'
-    ],
-    urls: [
-      'https://fonts.googleapis.com/earlyaccess/notosansjapanese.css'
-    ]
+    families: ['Noto Sans Japanese'],
+    urls: ['https://fonts.googleapis.com/earlyaccess/notosansjapanese.css']
   },
   loading: function () {
     console.log('loading')
@@ -50,19 +46,19 @@ export default {
 
 <style lang='scss'>
 #app {
-	font-family: 'Noto Sans Japanese';
+  font-family: 'Noto Sans Japanese';
 }
 
 body {
-	margin: 0px;
+  margin: 0px;
 }
 
 .page-fade-enter-active,
 .page-fade-leave-active {
-	transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 .page-fade-enter,
 .page-fade-leave-to {
-	opacity: 0;
+  opacity: 0;
 }
 </style>
