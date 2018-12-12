@@ -29,6 +29,10 @@
           <td><a href="https://twitter.com/plus_kyoto" target="_blank">@plus_kyoto</a></td>
         </tr>
         <tr>
+          <th>Blog</th>
+          <td><a href="https://plus-blog.hatenablog.com" target="_blank">一人前のエンジニアになれますか？</a></td>
+        </tr>
+        <tr>
           <th>Mail</th>
           <td>naokikishi.kyoto[at]gmail.com</td>
         </tr>
@@ -47,7 +51,7 @@ export default {
   components: {
     pageTitle
   },
-  data () {
+  data() {
     return {}
   }
 }
