@@ -17,8 +17,7 @@ export default {
     pageTitle
   },
   data () {
-    return {
-    }
+    return {}
   }
 }
 </script>
@@ -27,30 +26,30 @@ export default {
 @import '@/assets/styles/_color.scss';
 @import '@/assets/styles/_mixin.scss';
 
-.contacts-wrapper{
+.contacts-wrapper {
   text-align: center;
 }
 
-.contacts{
+.contacts {
   @include box-shadow;
-  width : 800px;
+  width: 800px;
   border-radius: 50px;
   margin: 20px auto;
-  color : $text-color;
+  color: $text-color;
 }
 
-@media (max-width : 1000px){
-  .contacts{
-    width : 80%;
-    word-break:break-all;
+@media (max-width: 1000px) {
+  .contacts {
+    width: 80%;
+    word-break: break-all;
   }
 }
 
-p{
-  padding : 40px 20px;
+p {
+  padding: 40px 20px;
 }
 
-a{
+a {
   text-decoration: none;
 }
 </style>

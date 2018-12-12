@@ -9,14 +9,13 @@ export default {
   name: 'pageTitle',
   props: ['title'],
   date () {
-    return {
-    }
+    return {}
   }
 }
 </script>
 
 <style lang="scss" scoped>
-  h1 {
-    font-weight: normal;
-  }
+h1 {
+  font-weight: normal;
+}
 </style>
