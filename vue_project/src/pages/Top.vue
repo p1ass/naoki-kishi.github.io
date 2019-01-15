@@ -1,5 +1,5 @@
 <template>
-    <div class='hello'>
+    <article class='hello'>
       <h1>{{ msg }}</h1>
 
       <div class = "share">
@@ -16,7 +16,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </article>
 </template>
 
 <script>

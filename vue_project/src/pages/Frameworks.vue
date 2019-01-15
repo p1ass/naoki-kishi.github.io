@@ -1,12 +1,12 @@
 <template>
-<div class = 'tools-wrapper'>
+<article class = 'tools-wrapper'>
   <pageTitle title='Frameworks & Tools'></pageTitle>
   <div class='tools'>
     <box v-bind:key='tool.name' v-for='tool in tools' v-bind:item='tool'>
       使用歴 : {{tool.term}}
     </box>
   </div>
-</div>
+</article>
 </template>
 
 <script>
@@ -36,15 +36,21 @@ export default {
           term: '1ヶ月'
         },
         {
+          name: 'AWS',
+          content:
+            'EC2やECS、RDS、Lambda、CloudFront、Route53、RekognitionといったAWSの主要なサービスを使用したことがあります。',
+          term: '3ヶ月'
+        },
+        {
           name: 'Firebase',
           content:
-            '主にFirebase Authenticationを使用したログイン機能の実装を行いました。JWTを使ったサーバーサイドとの連携の実装をしました。',
+            'Firebase Authenticationを使用したログイン機能の実装やJWTを使ったサーバーサイドとの連携の実装をしました。また、Cloud Firestoreを用いたデータベースの構築も行いました。',
           term: '3ヶ月'
         },
         {
           name: 'GitHub',
           content:
-            '基本的なgitの使い方を習得しています。また、複数人での共同開発やプルリク駆動開発の経験があります。',
+            '基本的なgitの使い方を習得しています。また、プルリクエスト、レビューといった複数人での開発の経験があります。',
           term: '1年'
         },
         {
@@ -57,7 +63,7 @@ export default {
           name: 'Circle CI',
           content:
             'Django REST Frameworkで作成したAPIの自動テストを行っています。Circle CI上のVMでdocker-composeを立ち上げてローカルと同じ環境でテストできるようにしています。',
-          term: '2ヶ月'
+          term: '3ヶ月'
         }
       ]
     }

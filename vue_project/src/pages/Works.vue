@@ -1,12 +1,12 @@
 <template>
-<div class = "works-wrapper">
+<article class = "works-wrapper">
   <pageTitle title="Works"></pageTitle>
   <div class='works'>
     <box v-bind:key='work.link' v-for='work in works' v-bind:item='work' >
       <a v-bind:href="work.link" target="_blank">URL</a>
     </box>
   </div>
-</div>
+</article>
 </template>
 
 <script>
@@ -26,8 +26,14 @@ export default {
         {
           name: 'えもじっく',
           content:
-            'OpenCVの顔認識機能を使って、人の画像を絵文字に変換するWebサービスです。フロントエンドにはNuxt.jsを、バックエンドにはPythonを使い、Serverless Frameworkで構築しています。',
+            'AWS Rekognitionの顔認識機能を使って、人の画像を絵文字に変換するWebサービスです。フロントエンドにはNuxt.jsを、バックエンドにはPythonを使い、Serverless Frameworkで構築しています。',
           link: 'https://github.com/naoki-kishi/emojic.ch'
+        },
+        {
+          name: 'marshiv',
+          content:
+            'pixivの2018年冬インターンシップに参加した際に作成した画像ビューワーです。Intersection Observerを使ったイラストの無限スクロースやタグを用いた簡易的なレコメンドシステムを作成しました。',
+          link: 'https://plus-blog.hatenablog.com/entry/pixiv-intern-2018'
         },
         {
           name: 'Portfolio Site',

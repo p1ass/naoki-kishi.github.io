@@ -14,10 +14,7 @@
 
 <script>
 export default {
-  name: 'myHeader',
-  data () {
-    return {}
-  }
+  name: 'myHeader'
 }
 </script>
 
