@@ -1,5 +1,5 @@
 <template>
-<div class = "about-wrapper">
+<article class = "about-wrapper">
   <pageTitle title="About"></pageTitle>
   <div class="self-introduction">
     <table>
@@ -39,7 +39,7 @@
       </tbody>
     </table>
   </div>
-</div>
+</article>
 </template>
 
 <script>
@@ -50,9 +50,6 @@ export default {
   title: 'About - ',
   components: {
     pageTitle
-  },
-  data() {
-    return {}
   }
 }
 </script>

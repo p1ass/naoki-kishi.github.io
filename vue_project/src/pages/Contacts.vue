@@ -1,10 +1,10 @@
 <template>
-<div class = "contacts-wrapper">
+<article class = "contacts-wrapper">
   <pageTitle title="Contacts"></pageTitle>
   <div class="contacts">
     <p>私の<a href="https://twitter.com/plus_kyoto" target="_blank">Twitter</a>もしくはMail (naokikishi.kyoto[at]gmail.com)からお問い合わせください。</p>
   </div>
-</div>
+</article>
 </template>
 
 <script>
@@ -15,9 +15,6 @@ export default {
   title: 'Contacts -',
   components: {
     pageTitle
-  },
-  data () {
-    return {}
   }
 }
 </script>

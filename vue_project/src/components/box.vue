@@ -1,18 +1,15 @@
 <template>
-  <div class='box'>
+  <section class='box'>
     <h2>{{item.name}}</h2>
     <p class="box-content">{{item.content}}</p>
     <p class="sub-content"><slot></slot></p>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
   name: 'box',
-  props: ['item'],
-  data () {
-    return {}
-  }
+  props: ['item']
 }
 </script>
 

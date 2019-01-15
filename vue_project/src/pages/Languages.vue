@@ -1,12 +1,12 @@
 <template>
-<div class = 'languages-wrapper'>
+<article class = 'languages-wrapper'>
   <pageTitle title='Languages'></pageTitle>
   <div class='languages'>
     <box v-bind:key='language.name' v-for='language in languages' v-bind:item='language'>
       使用歴 : {{language.term}}
     </box>
   </div>
-</div>
+</article>
 </template>
 
 <script>
@@ -30,7 +30,7 @@ export default {
     // Dateインスタンスに変換
     const birthDate = new Date(
       yourBirthDay.year,
-      yourBirthDay.month - 1,
+      yourBirthDay.monWth - 1,
       yourBirthDay.date
     )
 
@@ -68,16 +68,10 @@ export default {
           term: '2年'
         },
         {
-          name: 'C',
+          name: 'Golang',
           content:
-            '私が初めて学んだ言語です。高校生の時に1年ほど勉強しました。その後、大学の授業で基礎的なニューラルネットワークの実装などを行いました。',
-          term: '2年'
-        },
-        {
-          name: 'Kotlin',
-          content:
-            'LINE SUMMER INTERNSHIP 2018 エンジニアスクールコースにて使用しました。Spring Bootを用いたサーバーサイドAPIの実装やAndroidクライアントの作成を行いました。',
-          term: '3ヶ月'
+            '最近勉強を始めた言語です。REST APIやgRPCサーバーのサンプルを動かしたりして遊んでいます。',
+          term: '1ヶ月'
         },
         {
           name: 'HTML & SCSS',
@@ -91,6 +85,19 @@ export default {
             'こちらもポートフォリオサイト作成に当たって勉強しました。Progateを使って学んだ後は分からないところが見つかるたびに調べて勉強しました。',
           term: '3ヶ月'
         },
+        {
+          name: 'C',
+          content:
+            '私が初めて学んだ言語です。高校生の時に1年ほど勉強しました。その後、大学の授業で基礎的なニューラルネットワークの実装などを行いました。',
+          term: '2年'
+        },
+        {
+          name: 'Kotlin',
+          content:
+            'LINE SUMMER INTERNSHIP 2018 エンジニアスクールコースにて使用しました。Spring Bootを用いたサーバーサイドAPIの実装やAndroidクライアントの作成を行いました。',
+          term: '3ヶ月'
+        },
+
         {
           name: 'Japanese',
           content:
