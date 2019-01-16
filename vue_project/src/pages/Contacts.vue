@@ -2,7 +2,7 @@
 <article class = "contacts-wrapper">
   <pageTitle title="Contacts"></pageTitle>
   <div class="contacts">
-    <p>私の<a href="https://twitter.com/plus_kyoto" target="_blank">Twitter</a>もしくはMail (naokikishi.kyoto[at]gmail.com)からお問い合わせください。</p>
+    <p>私の<a href="https://www.facebook.com/naokikishi.kyoto" target="_blank">Facebook</a>、<a href="https://twitter.com/plus_kyoto" target="_blank">Twitter</a>、もしくはMail (naokikishi.kyoto[at]gmail.com)からお問い合わせください。</p>
   </div>
 </article>
 </template>
