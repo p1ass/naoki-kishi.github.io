@@ -25,6 +25,11 @@
           <td><a href="https://qiita.com/plus_kyoto" target="_blank">plus_kyoto</a></td>
         </tr>
         <tr>
+          <th>Facebook</th>
+          <td><a href="https://www.facebook.com/naokikishi.kyoto" target="_blank">岸 直輝</a></td>
+        </tr>
+        <tr>
+        <tr>
           <th>Twitter</th>
           <td><a href="https://twitter.com/plus_kyoto" target="_blank">@plus_kyoto</a></td>
         </tr>
