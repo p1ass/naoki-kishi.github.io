@@ -58,13 +58,6 @@ export default {
           content:
             'LINE SUMMER INTERNSHIP 2018 エンジニアスクールコースにて使用しました。Spring Bootを用いたサーバーサイドAPIの実装やAndroidクライアントの作成を行いました。',
           term: '3ヶ月'
-        },
-
-        {
-          name: 'Japanese',
-          content:
-            '最も自由に扱える言語といって差し支えない実力を持っています。',
-          term: '20年'
         }
       ]
     }
